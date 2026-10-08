@@ -1,59 +1,131 @@
 # Student Performance Analytics System
 
 ## Project Overview
-The Student Performance Analytics System is a Python-based data analysis project.
-It uses Pandas and NumPy to analyze student marks, attendance, grades, and results.
+
+The Student Performance Analytics System is a beginner-level Python data analysis project.
+
+The system analyzes student academic performance using Python, NumPy, and Pandas.
+It calculates total marks, average marks, grades, pass/fail results, subject-wise performance, attendance statistics, and top-performing students.
+
+## Academic Details
+
+- Degree: B.Tech
+- Year of Study: 2nd Year
+- Department: Computer Science and Engineering
+- Branch: CSE
 
 ## Technologies Used
+
 - Python
 - NumPy
 - Pandas
+- Matplotlib
+- Google Colab
+- GitHub
 
-## Features
-- Store and load student data using Pandas
-- Calculate total marks
-- Calculate average marks
-- Assign grades
-- Determine Pass or Fail results
-- Calculate class performance
-- Analyze subject-wise performance
-- Find top-performing students
-- Analyze attendance
-- Save student data to CSV
+## Main Features
 
-## Grading System
+- Accepts academic details from the user
+- Accepts the number of students
+- Stores student records
+- Creates a Pandas DataFrame
+- Calculates total marks
+- Calculates average marks
+- Assigns grades
+- Determines Pass/Fail status
+- Calculates class performance
+- Calculates subject-wise performance
+- Finds top-performing students
+- Analyzes attendance
+- Shows grade-wise student count
+- Provides Pass/Fail summary
+- Searches for a student using Student ID
+- Saves the final dataset as a CSV file
+- Displays performance charts
+
+## Subjects
+
+1. Python
+2. Data Analysis
+
+## Grade Rules
+
 - 90 and above: A
 - 80 to 89: B
 - 70 to 79: C
 - 60 to 69: D
 - Below 60: F
 
-## Pass/Fail Rule
-A student passes when every subject mark is at least 35 and the average marks are at least 40.
+## Pass/Fail Rules
+
+A student is marked Pass when every subject mark is at least 35 and the average marks are at least 40.
 
 ## Dataset
-The project uses a dataset containing 15 student records.
-The dataset includes Student ID, Name, Branch, Attendance, subject marks, Total Marks, Average Marks, Grade, and Result.
+
+The project contains 15 student records.
+
+The dataset includes Student ID, Name, Degree, Year of Study, Department, Branch, Attendance, Python marks, Data Analysis marks, Total Marks, Average Marks, Grade, and Result.
+
+## Project Results
+
+- Total Students: 15
+- Class Average: 82.7
+- Average Attendance: 89.8%
+- Pass Students: 15
+- Fail Students: 0
+- Highest Performer: Pooja
+- Highest Average: 97.0
+- Lowest Performer: Ravi
+- Lowest Average: 58.5
+
+## Grade Distribution
+
+- Grade A: 5 students
+- Grade B: 5 students
+- Grade C: 3 students
+- Grade D: 1 student
+- Grade F: 1 student
+
+## Top 3 Students
+
+1. Pooja - 97.0
+2. Arjun - 94.0
+3. Anjali - 93.0
 
 ## Project Files
-- main.py - Main Python program
-- students.csv - Student dataset
-- README.md - Project documentation
 
-## Final Results
-- Total Students: 15
-- Class Average: 80.97
-- Highest Average: 97.0
-- Lowest Average: 58.5
-- Passed Students: 15
-- Failed Students: 0
-- Average Attendance: 79.0
+- main.py
+- students.csv
+- README.md
 
 ## How to Run
-1. Install Python.
-2. Install Pandas and NumPy.
-3. Keep main.py and students.csv in the same folder.
-4. Run main.py.
 
-## Author
-Chiranjeevankumar Raavi
+Install the required libraries:
+
+pip install pandas numpy matplotlib
+
+Run the program:
+
+python main.py
+
+Enter the required academic details and search for a student using Student ID.
+
+## Learning Concepts Used
+
+- Variables
+- Data types
+- Lists
+- Dictionaries
+- Loops
+- Conditional statements
+- Functions
+- NumPy
+- Pandas
+- DataFrame
+- Data analysis
+- CSV file handling
+- Basic data visualization
+
+## Conclusion
+
+The Student Performance Analytics System demonstrates how Python can be used to organize, process, analyze, and visualize student performance data.
