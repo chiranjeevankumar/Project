@@ -1,0 +1,16 @@
+Student_ID,Name,Branch,Attendance,Ghh,Hhj,Total_Marks,Average_Marks,Grade,Result
+1,E,E,3.0,43,89,132,66.0,D,Pass
+3,Jei,Ij,89.0,89,90,179,89.5,B,Pass
+23,Hdj,Uj,8.0,55,77,132,66.0,D,Pass
+89,Hej,Ijj,89.0,87,87,174,87.0,B,Pass
+S005,Jrj,Ij,98.0,89,67,156,78.0,C,Pass
+S006,Rahul,CSE,92.0,85,90,175,87.5,B,Pass
+S007,Priya,ECE,88.0,78,82,160,80.0,B,Pass
+S008,Arjun,CSE,95.0,92,96,188,94.0,A,Pass
+S009,Sneha,EEE,86.0,72,75,147,73.5,C,Pass
+S010,Kiran,CSE,90.0,88,84,172,86.0,B,Pass
+S011,Anjali,ECE,91.0,95,91,186,93.0,A,Pass
+S012,Vijay,MECH,80.0,65,70,135,67.5,D,Pass
+S013,Neha,CSE,94.0,89,93,182,91.0,A,Pass
+S014,Ravi,ECE,85.0,55,62,117,58.5,F,Pass
+S015,Pooja,CSE,97.0,96,98,194,97.0,A,Pass
