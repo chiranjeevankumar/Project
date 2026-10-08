@@ -2,9 +2,8 @@
 import numpy as np
 import pandas as pd
 
-print("==============================================")
 print(" STUDENT PERFORMANCE ANALYTICS SYSTEM")
-print("==============================================")
+print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 
 # User inputs
 degree = input("Enter Degree: ")
@@ -163,18 +162,18 @@ new_df.to_csv("students.csv", index=False)
 
 # Display dataset
 print("\nDataset Created Successfully")
-print("----------------------------")
+print("                               ")
 print("Number of Students:", len(new_df))
 print("Number of Subjects:", len(subjects))
 
 print("\nStudent Performance Data")
-print("------------------------")
+print("                           ")
 print(new_df.to_string(index=False))
 
 
 # Overall performance
 print("\nOverall Performance")
-print("-------------------")
+print("                      ")
 
 class_average = new_df["Average_Marks"].mean()
 average_attendance = new_df["Attendance"].mean()
@@ -188,14 +187,14 @@ passed_students = len(new_df[new_df["Result"] == "Pass"])
 failed_students = len(new_df[new_df["Result"] == "Fail"])
 
 print("\nResult Summary")
-print("--------------")
+print("                 ")
 print("Passed Students:", passed_students)
 print("Failed Students:", failed_students)
 
 
 # Subject-wise averages
 print("\nSubject-wise Average Marks")
-print("--------------------------")
+print("                             ")
 
 for subject in subjects:
 
@@ -206,7 +205,7 @@ for subject in subjects:
 
 # Top 3 students
 print("\nTop 3 Students")
-print("--------------")
+print("                 ")
 
 top_students = new_df.sort_values(
     by="Average_Marks",
@@ -222,7 +221,7 @@ print(
 
 # Grade distribution
 print("\nGrade Distribution")
-print("------------------")
+print("                      ")
 
 grade_order = ["A", "B", "C", "D", "F"]
 
@@ -235,7 +234,7 @@ for grade in grade_order:
 
 # Student search
 print("\nStudent Search")
-print("--------------")
+print("                  ")
 
 search_id = input("Enter Student ID to search: ")
 
@@ -244,7 +243,7 @@ student = new_df[new_df["Student_ID"] == search_id]
 if len(student) > 0:
 
     print("\nStudent Found")
-    print("-------------")
+    print("                 ")
     print(student.to_string(index=False))
 
 else:
@@ -252,6 +251,6 @@ else:
     print("\nStudent ID not found.")
 
 
-print("\n==============================================")
+print("\n...........................................")
 print(" Project execution completed successfully.")
-print("==============================================")
+print(".............................................")
