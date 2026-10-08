@@ -1,18 +1,24 @@
+
 # Student Performance Analytics System
 
 ## Project Overview
 
-The Student Performance Analytics System is a beginner-level Python data analysis project.
+The Student Performance Analytics System is a Python-based data analysis project developed as part of the EWB Courses | Python with AI project guidelines.
 
-The system analyzes student academic performance using Python, NumPy, and Pandas.
-It calculates total marks, average marks, grades, pass/fail results, subject-wise performance, attendance statistics, and top-performing students.
+The system manages student academic performance data and uses Python, NumPy, and Pandas to calculate marks, averages, grades, results, attendance statistics, subject-wise performance, and top-performing students.
 
-## Academic Details
+The project is designed using Python fundamentals such as variables, data types, loops, functions, conditional statements, NumPy calculations, and Pandas DataFrame operations.
+
+---
+
+## Student Details
 
 - Degree: B.Tech
 - Year of Study: 2nd Year
 - Department: Computer Science and Engineering
 - Branch: CSE
+
+---
 
 ## Technologies Used
 
@@ -23,109 +29,211 @@ It calculates total marks, average marks, grades, pass/fail results, subject-wis
 - Google Colab
 - GitHub
 
-## Main Features
-
-- Accepts academic details from the user
-- Accepts the number of students
-- Stores student records
-- Creates a Pandas DataFrame
-- Calculates total marks
-- Calculates average marks
-- Assigns grades
-- Determines Pass/Fail status
-- Calculates class performance
-- Calculates subject-wise performance
-- Finds top-performing students
-- Analyzes attendance
-- Shows grade-wise student count
-- Provides Pass/Fail summary
-- Searches for a student using Student ID
-- Saves the final dataset as a CSV file
-- Displays performance charts
+---
 
 ## Subjects
 
+The project contains performance data for five subjects:
+
 1. Python
-2. Data Analysis
+2. Java
+3. JavaScript
+4. AI/ML
+5. C
 
-## Grade Rules
-
-- 90 and above: A
-- 80 to 89: B
-- 70 to 79: C
-- 60 to 69: D
-- Below 60: F
-
-## Pass/Fail Rules
-
-A student is marked Pass when every subject mark is at least 35 and the average marks are at least 40.
+---
 
 ## Dataset
 
-The project contains 15 student records.
+The dataset contains 22 student records.
 
-The dataset includes Student ID, Name, Degree, Year of Study, Department, Branch, Attendance, Python marks, Data Analysis marks, Total Marks, Average Marks, Grade, and Result.
+Each student record contains:
 
-## Project Results
+- Student ID
+- Name
+- Degree
+- Year of Study
+- Department
+- Branch
+- Python marks
+- Java marks
+- JavaScript marks
+- AI/ML marks
+- C marks
+- Total Marks
+- Average Marks
+- Grade
+- Result
+- Attendance
 
-- Total Students: 15
-- Class Average: 82.7
-- Average Attendance: 89.8%
-- Pass Students: 15
-- Fail Students: 0
-- Highest Performer: Pooja
-- Highest Average: 97.0
-- Lowest Performer: Ravi
-- Lowest Average: 58.5
+The dataset is stored in:
 
-## Grade Distribution
+`students.csv`
 
-- Grade A: 5 students
-- Grade B: 5 students
-- Grade C: 3 students
-- Grade D: 1 student
-- Grade F: 1 student
+---
 
-## Top 3 Students
+## Grade Rules
 
-1. Pooja - 97.0
-2. Arjun - 94.0
-3. Anjali - 93.0
+Grades are calculated using the student's average marks.
+
+| Average Marks | Grade |
+|---|---|
+| 90 and above | A |
+| 80 - 89 | B |
+| 70 - 79 | C |
+| 60 - 69 | D |
+| Below 60 | F |
+
+---
+
+## Pass / Fail Rule
+
+A student is marked **Pass** when:
+
+- Average marks are 40 or above
+- Grade is not F
+
+Otherwise, the student is marked **Fail**.
+
+---
+
+## Main Features
+
+### 1. Student Data Management
+
+The program stores student details, subject marks, and attendance.
+
+### 2. Total Marks
+
+The system calculates the total marks obtained across all five subjects.
+
+### 3. Average Marks
+
+The system calculates the average marks of each student.
+
+### 4. Grade Calculation
+
+The system assigns grades from A to F based on average marks.
+
+### 5. Pass / Fail Analysis
+
+The system determines whether each student has passed or failed.
+
+### 6. Overall Performance
+
+The system calculates:
+
+- Class average marks
+- Average attendance
+- Number of passed students
+- Number of failed students
+
+### 7. Subject-wise Performance
+
+The system calculates the average marks for each subject.
+
+### 8. Top Performing Students
+
+The system displays the top three students according to average marks.
+
+### 9. Grade Distribution
+
+The system counts the number of students in each grade category.
+
+### 10. Student Search
+
+The user can enter a Student ID and view that student's complete performance details.
+
+---
+
+## NumPy Usage
+
+NumPy is used for numerical calculations.
+
+For example, the total marks of a student are calculated using:
+
+`np.sum(marks)`
+
+---
+
+## Pandas Usage
+
+Pandas is used to:
+
+- Create the DataFrame
+- Store student records
+- Calculate statistics
+- Filter students
+- Sort students
+- Save the final dataset as a CSV file
+- Read the saved CSV file
+
+---
+
+## Project Output
+
+The final dataset contains:
+
+- 22 students
+- 5 subjects
+- 16 columns
+
+### Overall Results
+
+- Class Average Marks: **83.95**
+- Average Attendance: **90.0%**
+- Passed Students: **21**
+- Failed Students: **1**
+
+### Top 3 Students
+
+1. Ayyappa — 97.0
+2. Ajay — 94.0
+3. Hasini — 93.2
+
+### Subject-wise Average
+
+| Subject | Average Marks |
+|---|---:|
+| Python | 82.14 |
+| Java | 83.95 |
+| JavaScript | 84.91 |
+| AI/ML | 85.36 |
+| C | 83.41 |
+
+### Grade Distribution
+
+| Grade | Students |
+|---|---:|
+| A | 8 |
+| B | 7 |
+| C | 5 |
+| D | 1 |
+| F | 1 |
+
+---
+
+## Visualizations
+
+The project includes two charts:
+
+- Grade Distribution
+- Subject-wise Average Marks
+
+The charts are stored in the `screenshots` folder.
+
+---
 
 ## Project Files
 
-- main.py
-- students.csv
-- README.md
-
-## How to Run
-
-Install the required libraries:
-
-pip install pandas numpy matplotlib
-
-Run the program:
-
-python main.py
-
-Enter the required academic details and search for a student using Student ID.
-
-## Learning Concepts Used
-
-- Variables
-- Data types
-- Lists
-- Dictionaries
-- Loops
-- Conditional statements
-- Functions
-- NumPy
-- Pandas
-- DataFrame
-- Data analysis
-- CSV file handling
-- Basic data visualization
-
-## Conclusion
-
-The Student Performance Analytics System demonstrates how Python can be used to organize, process, analyze, and visualize student performance data.
+```text
+Project/
+│
+├── main.py
+├── students.csv
+├── README.md
+├── Project_Documentation.md
+│
+└── screenshots/
+    ├── grade_distribution.png
+    └── subject_average.png

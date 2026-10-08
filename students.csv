@@ -1,16 +1,23 @@
-Student_ID,Name,Degree,Year_of_Study,Department,Branch,Attendance,Python,Data Analysis,Total_Marks,Average_Marks,Grade,Result
-S001,Rahul,B.Tech,2nd Year,Computer Science and Engineering,CSE,92,85,90,175,87.5,B,Pass
-S002,Priya,B.Tech,2nd Year,Computer Science and Engineering,CSE,88,78,82,160,80.0,B,Pass
-S003,Arjun,B.Tech,2nd Year,Computer Science and Engineering,CSE,95,92,96,188,94.0,A,Pass
-S004,Sneha,B.Tech,2nd Year,Computer Science and Engineering,CSE,86,72,75,147,73.5,C,Pass
-S005,Kiran,B.Tech,2nd Year,Computer Science and Engineering,CSE,90,88,84,172,86.0,B,Pass
-S006,Anjali,B.Tech,2nd Year,Computer Science and Engineering,CSE,91,95,91,186,93.0,A,Pass
-S007,Vijay,B.Tech,2nd Year,Computer Science and Engineering,CSE,80,65,70,135,67.5,D,Pass
-S008,Neha,B.Tech,2nd Year,Computer Science and Engineering,CSE,94,89,93,182,91.0,A,Pass
-S009,Ravi,B.Tech,2nd Year,Computer Science and Engineering,CSE,85,55,62,117,58.5,F,Pass
-S010,Pooja,B.Tech,2nd Year,Computer Science and Engineering,CSE,97,96,98,194,97.0,A,Pass
-S011,Akhil,B.Tech,2nd Year,Computer Science and Engineering,CSE,89,82,86,168,84.0,B,Pass
-S012,Divya,B.Tech,2nd Year,Computer Science and Engineering,CSE,93,90,88,178,89.0,B,Pass
-S013,Manoj,B.Tech,2nd Year,Computer Science and Engineering,CSE,84,74,79,153,76.5,C,Pass
-S014,Kavya,B.Tech,2nd Year,Computer Science and Engineering,CSE,96,91,94,185,92.5,A,Pass
-S015,Suresh,B.Tech,2nd Year,Computer Science and Engineering,CSE,87,68,73,141,70.5,C,Pass
+Student_ID,Name,Degree,Year_of_Study,Department,Branch,Python,Java,JavaScript,AI/ML,C,Total_Marks,Average_Marks,Grade,Result,Attendance
+S001,Chiru,B.Tech,2nd Year,Computer Science and Engineering ,CSE,85,82,88,90,84,429,85.8,B,Pass,92
+S002,Tarun,B.Tech,2nd Year,Computer Science and Engineering ,CSE,78,81,85,79,76,399,79.8,C,Pass,88
+S003,Vijay,B.Tech,2nd Year,Computer Science and Engineering ,CSE,92,94,96,91,93,466,93.2,A,Pass,95
+S004,Pavan,B.Tech,2nd Year,Computer Science and Engineering ,CSE,72,75,78,80,74,379,75.8,C,Pass,86
+S005,Gulshan,B.Tech,2nd Year,Computer Science and Engineering ,CSE,88,84,86,89,87,434,86.8,B,Pass,90
+S006,Ajay,B.Tech,2nd Year,Computer Science and Engineering ,CSE,95,92,94,96,93,470,94.0,A,Pass,91
+S007,Madav,B.Tech,2nd Year,Computer Science and Engineering ,CSE,65,68,72,70,66,341,68.2,D,Pass,80
+S008,Chandan,B.Tech,2nd Year,Computer Science and Engineering ,CSE,89,93,91,95,90,458,91.6,A,Pass,94
+S009,Manoj,B.Tech,2nd Year,Computer Science and Engineering ,CSE,55,62,58,60,57,292,58.4,F,Fail,85
+S010,Ayyappa,B.Tech,2nd Year,Computer Science and Engineering ,CSE,96,98,97,99,95,485,97.0,A,Pass,97
+S011,Satish,B.Tech,2nd Year,Computer Science and Engineering ,CSE,82,86,84,81,85,418,83.6,B,Pass,89
+S012,Charan,B.Tech,2nd Year,Computer Science and Engineering ,CSE,90,88,91,89,92,450,90.0,A,Pass,93
+S013,Anjan,B.Tech,2nd Year,Computer Science and Engineering ,CSE,74,79,76,72,78,379,75.8,C,Pass,84
+S014,Hasini,B.Tech,2nd Year,Computer Science and Engineering ,CSE,91,94,93,92,96,466,93.2,A,Pass,96
+S015,Yaswanth,B.Tech,2nd Year,Computer Science and Engineering ,CSE,68,73,70,75,71,357,71.4,C,Pass,87
+S016,Vikas,B.Tech,2nd Year,Computer Science and Engineering ,CSE,86,88,85,87,89,435,87.0,B,Pass,90
+S017,Vesilee,B.Tech,2nd Year,Computer Science and Engineering ,CSE,84,90,88,91,86,439,87.8,B,Pass,92
+S018,Narayana,B.Tech,2nd Year,Computer Science and Engineering ,CSE,70,72,75,78,73,368,73.6,C,Pass,83
+S019,Vijaya,B.Tech,2nd Year,Computer Science and Engineering ,CSE,93,91,94,96,92,466,93.2,A,Pass,95
+S020,Siva,B.Tech,2nd Year,Computer Science and Engineering ,CSE,77,80,83,85,79,404,80.8,B,Pass,88
+S021,Kumar,B.Tech,2nd Year,Computer Science and Engineering ,CSE,87,85,89,90,88,439,87.8,B,Pass,91
+S022,Varshika,B.Tech,2nd Year,Computer Science and Engineering ,CSE,90,92,95,93,91,461,92.2,A,Pass,94
